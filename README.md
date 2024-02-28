@@ -20,3 +20,6 @@ This project contains four folders: `data`, `results`, `src`, `scripts`.
 - `results`: include the experimental results.
 - `src`: include the source codes.
 - `scripts`: include scripts to directly relicate the experiments in the paper.
+
+## Reproduce
+To get the figures in `results` folder, run the .R code in each .zip file with corresponding name to get the results. For example, to get Table 1 in the article, down the file named "Table1 Figures1-5.zip" and run the "Figure1.R" to get the Table 1.
