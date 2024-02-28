@@ -15,8 +15,8 @@ Below is the BibTex for citing this version of the code.
 ## Description
 Sparse reduced-rank regression is an important tool to uncover the large-scale response-predictor association network,  as exemplified by modern applications such as the diffusion networks, and recommendation systems. However, the association networks recovered by existing methods are either sensitive to outliers or not scalable under the big data setup. In this paper, we propose a new statistical learning method called robust parallel pursuit (ROP) for joint estimation and outlier detection in large-scale response-predictor association network analysis.  The proposed method is scalable in that it transforms the original large-scale network learning problem into a set of sparse unit-rank estimations via factor analysis,  thus facilitating an effective parallel pursuit algorithm.  
 
-This project contains four folders: data, results, src, scripts.
-- data：include two datasets used in the paper.
-- results: include the experimental results.
-- src: include the source code.
-- scripts: include two scripts.
+This project contains four folders: `data`, `results`, `src`, `scripts`.
+- `data`：include two datasets used in the paper.
+- `results`: include the experimental results.
+- `src`: include the source codes.
+- `scripts`: include scripts to directly relicate the experiments in the paper.
