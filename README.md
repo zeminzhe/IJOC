@@ -2,13 +2,19 @@
 This archive is distributed in association with the [INFORMS Journal on Computing](https://pubsonline.informs.org/journal/ijoc) under the [MIT License](https://github.com/INFORMSJoC/2019.0000/blob/master/LICENSE).
 ## Cite
 To cite the contents of this repository, please cite both the paper and this repo, using the following DOIs.
+
+[https://doi.org/10.1287/ijoc.2022.0181](https://doi.org/10.1287/ijoc.2022.0181)
+
+[https://doi.org/10.1287/ijoc.2022.0181.cd](https://doi.org/10.1287/ijoc.2022.0181.cd)
+
 Below is the BibTex for citing this version of the code.
 ```latex
 @article{Li2024IJOC,
   author =        {W. Li, Z. Zheng, R. Dong, and X. Zhou},
   publisher =     {INFORMS Journal on Computing},
   title =         {Robust Parallel Pursuit for Large-Scale Association Network Learning, v2022.0181},
-  year =          {2024}, 
+  year =          {2024},
+  doi = {10.1287/ijoc.2022.0181.cd},
   url =           {https://github.com/INFORMSJoC/2022.0181},
 }  
 ```
@@ -21,5 +27,5 @@ This project contains four folders: `data`, `results`, `src`, `scripts`.
 - `src`: include the source codes.
 - `scripts`: include scripts to directly relicate the experiments in the paper.
 
-## Reproduce
+## Replicating
 To get the figures in `results` folder, run the .R code in each .zip file with corresponding name to get the results. For example, to get Table 1 in the article, down the file named "Table1 Figures1-5.zip" and run the "Figure1.R" to get the Table 1.
