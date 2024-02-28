@@ -1,1 +1,2 @@
-It contains .zip files named with "Table1 Figures1-5", "Table2 Figure6" and "Table4" to get the figures in the results file.
+- Download "Table1 Figures1-5.zip", "Table2 Figure6.zip" and "Table4.zip" to get the figures in the results file.
+- Download "Simu_Reproduce.zip" to reproduce the simulation results in the Section 6 in the paper
