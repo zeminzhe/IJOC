@@ -1,5 +1,4 @@
 
-######################## 调整参数lasso :GIC #################################
 ##############################################################################
 
 library("lars")
@@ -8,15 +7,14 @@ library("glmnet")
 
 
 ################## sess  ######################
-# 这里的r是值预估的秩
 RS1 = function(Y,X,r=NULL,outlier = TRUE,thres = NULL)
 {
   # new model
   n = nrow(Y)
   #r2 = qr(X)$rank
-  if (outlier){#若存在outlier，则（XI）
+  if (outlier){
     X1 = X
-    X = cbind(X1, diag(n)) # 构造X=(XI)
+    X = cbind(X1, diag(n)) 
   }
   
   p = ncol(X)
@@ -33,9 +31,9 @@ RS1 = function(Y,X,r=NULL,outlier = TRUE,thres = NULL)
     rmax = min(r1,r,n,p,q)
   
   Q = svd(Y,nu = rmax, nv= rmax) 
-  Z = Q$u  # Y的左奇异向量，即Z=XU中的Z
+  Z = Q$u  
   S = diag(Q$d [1:rmax]) 
-  V = Q$v # Y的右奇异向量
+  V = Q$v 
   
   if(rmax ==1 )
   { ## r_star =1
@@ -76,13 +74,6 @@ RS1 = function(Y,X,r=NULL,outlier = TRUE,thres = NULL)
     step.GIC = which.min(GIC)
     lam = fit$lambda[step.GIC]
     U.hat[,i] = coef(fit,lam)[-1]
-    #AICc = tLL + 2*k +2*k*(k+1)/(n-k-1)
-    #BIC = log(n)*k -tLL
-    #aaa = lars(X,Z[,i],type = "lasso",normalize = FALSE, intercept = FALSE,
-    #           use.Gram = FALSE)
-    #BIC = log(n)*aaa$df + n*log(as.vector(aaa$RSS)/n)
-    #step.BIC = which.min(BIC)
-    #cat("parameter = ", step.BIC, "\n")
     
   }
   
