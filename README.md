@@ -10,7 +10,7 @@ To cite the contents of this repository, please cite both the paper and this rep
 Below is the BibTex for citing this version of the code.
 ```latex
 @article{Li2024IJOC,
-  author =        {W. Li, Z. Zheng, R. Dong, and X. Zhou},
+  author =        {W. Li, X. Zhou, R. Dong, and Z. Zheng},
   publisher =     {INFORMS Journal on Computing},
   title =         {Robust Parallel Pursuit for Large-Scale Association Network Learning, v2022.0181},
   year =          {2024},
