@@ -14,7 +14,7 @@ Below is the BibTex for citing this version of the code.
   publisher =     {INFORMS Journal on Computing},
   title =         {Robust Parallel Pursuit for Large-Scale Association Network Learning, v2022.0181},
   year =          {2024},
-  doi = {10.1287/ijoc.2022.0181.cd},
+  doi =           {10.1287/ijoc.2022.0181.cd},
   url =           {https://github.com/INFORMSJoC/2022.0181},
 }  
 ```
