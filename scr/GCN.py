@@ -103,10 +103,3 @@ for m in range(1, M+1):
 # Save results to CSV
 results_df = pd.DataFrame(results)
 print(results_df)
-results_df.to_csv('gnn_results_Eu_50.csv', index=False)
-
-df3 = pd.read_csv('gnn_results_Eu_50.csv')
-df = df3
-grouped = df.groupby('optimal_hidden_dim')['relative_f_norm'].mean()
-result = pd.DataFrame(grouped).reset_index()
-print(result)
