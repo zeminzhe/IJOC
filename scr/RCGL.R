@@ -40,7 +40,6 @@ srrr.rank <- function(Y, X, sigma, method = c("glasso", "adglasso"), r.max = min
  
 
   ##########################################################################
-  ### 提前把lambda 做好
 # here the rank means max.rank
 RCGL = function(Y,X,rank)
 {
