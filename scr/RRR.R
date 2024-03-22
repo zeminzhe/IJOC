@@ -1,5 +1,4 @@
 
-#rank ×î´óÖÈ
 rrr_JRRS = function(Y,X,rank)
 {
   n = nrow(Y)
