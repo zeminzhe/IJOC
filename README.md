@@ -28,4 +28,6 @@ This project contains four folders: `data`, `results`, `src`, `scripts`.
 - `scripts`: include codes to directly replicate the experiments in the paper.
 
 ## Replicating
-To get the figures in `results` folder, run the .R code in each .zip file with corresponding name to get the results. For example, to get Table 1 in the article, down the file named "Table1 Figures1-5.zip" and run the "Figure1.R" to get the Table 1.
+To get the results in the results folder, please download and run the codes in the scripts folder. Specifically, to run the .R code in each .zip file with the corresponding name to get the results. For example, to obtain Table 1 in the article, download the file named "Table1 Figures1-5.zip" and run the "Figure1.R" script to obtain Table 1.
+
+See the readme.md file in each folder for a detailed description.
